@@ -8,68 +8,128 @@
     <title>Course Editor</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Editor</h1>
-        <div class="row">
-            <div class="col-4">
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        Cras justo odio
-                        <i class="fas fa-trash float-right"></i>
-                    </li>
-                    <li class="list-group-item active">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Morbi leo risus</li>
-                    <li class="list-group-item">Porta ac consectetur ac</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                    <li class="list-group-item">
+<div class="container">
+    <div class="wbdv-sticky-nav-bar">
+        <h1>
+            Course Editor
+        </h1>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">
+                    Build
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Themes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1">Apps</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1">Settings</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" >
+                    <i class="fas fa-plus-circle"></i>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <ul class="list-group">
+                <li href="#" class="list-group-item list-group-item-action active">
+                    Module 1
+                </li>
+                <li href="#" class="list-group-item list-group-item-action">
+                    Module 2
+                </li>
+                <li href="#" class="list-group-item list-group-item-action">
+                    Module 3
+                </li>
+                <li href="#" class="list-group-item list-group-item-action">
+                    Module 4
+                </li>
+                <li href="#" class="list-group-item list-group-item-action">
+                    Module 5
+                </li>
+                <li href="#" class="list-group-item list-group-item-action">
+                    <i class="fas fa-plus-circle"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="col-8">
+            <br/>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Topic 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Topic 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Topic 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1">Topic 4</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" >
                         <i class="fas fa-plus-circle"></i>
-                    </li>
-                </ul>
+                    </a>
+                </li>
+            </ul>
+
+            <h2>
+                Heading Widget
+                <select class="col-sm-2 form-control">
+                    <option>Heading</option>
+                    <option>Content</option>
+                    <option>Summary</option>
+                </select>
+            </h2>
+            <div class="mb-3 row">
+                <div class ="col-sm-12">
+                    <input class="form-control"
+                           placeholder="Heading text"/>
+                </div>
+
             </div>
-            <div class="col-8">
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">
-                            Active
-                            <i class="fas fa-trash"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
-                            <i class="fas fa-plus-circle"></i>
-                        </a>
-                    </li>
-                </ul>
 
-                <br/>
-
-                <ul class="nav nav-pills">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Active</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-
-                Content intentionally left blank
+            <div class="mb-3 row">
+                <div class="col-sm-12">
+                    <select id="heading"
+                            class="form-control">
+                        <option>Heading 1</option>
+                        <option>Heading 2</option>
+                        <option>Heading 3</option>
+                        <option>Heading 4</option>
+                    </select>
+                </div>
             </div>
+            <div class="mb-3 row">
+                <div class ="col-sm-12">
+                    <input class="form-control"
+                           placeholder="Widget name"/>
+                </div>
+
+            </div>
+            <p>
+            <h4>
+                Preview
+            </h4>
+            <h2>
+                Heading text
+            </h2>
+            </p>
+
+
         </div>
     </div>
+</div>
 </body>
 </html>
