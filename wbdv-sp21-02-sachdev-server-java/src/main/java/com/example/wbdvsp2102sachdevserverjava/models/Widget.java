@@ -2,6 +2,7 @@ package com.example.wbdvsp2102sachdevserverjava.models;
 
 import javax.persistence.*;
 
+
 @Entity
 @Table(name="widgets")
 public class Widget {
